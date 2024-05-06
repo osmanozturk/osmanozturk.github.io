@@ -2,11 +2,12 @@ import './Footer.css'
 
 const Footer = () => (
   <footer className='footer'>
+    <div>Special thanks to Raj Shekhar for the initial template</div>
     <a
-      href='https://github.com/rajshekhar26/cleanfolio'
+      href='https://github.com/osmanozturk'
       className='link footer__link'
     >
-      Created By Raj Shekhar
+      Osman Öztürk
     </a>
   </footer>
 )

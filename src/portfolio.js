@@ -1,71 +1,61 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://osmanozturk.github.io/cleanfolio',
+  title: 'OÖ',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  name: 'Osman Öztürk',
+  role: 'Full Stack Engineer',
+  description: `As a Full Stack Web Developer, I am driven by my desire to create elegant and user-friendly web
+  applications. My ability to seamlessly integrate front-end designs with powerful back-end
+  functionalities sets me apart. With a focus on teamwork and effective communication, I thrive in
+  collaborative environments and aim to exceed project expectations.`,
+  // resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/osmanoeztuerk',
+    github: 'https://github.com/osmanozturk',
   },
 }
 
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
-  {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+  // {
+  //   name: 'Project 1',
+  //   description:
+  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+  //   stack: ['SASS', 'TypeScript', 'React'],
+  //   sourceCode: 'https://github.com',
+  //   livePreview: 'https://github.com',
+  // },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Redux',
+  'MSSQL',
+  'PostgreSQL',
+  '.NET Core',
+  'ExpressJS',
+  'NestJS',
+  'HTML',
+  'CSS',
   'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Tailwind',
+  'Entity Framework Core',
+  'React',
+  'Vue',
+  'NextJS',
+  'Docker & Microservices'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'osmanozturkk16@outlook.com',
 }
 
 export { header, about, projects, skills, contact }
